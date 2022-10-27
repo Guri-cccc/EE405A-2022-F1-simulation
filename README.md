@@ -80,7 +80,7 @@ Replace `-arch=sm_20` with the `-arch=sm_xx` value from the article in the link 
     ./compile_with_cuda.sh
 
 
-** 3-2. Installing without GPU Support **  
+#### 3-2. Installing without GPU Support
 In the same terminal, enter the following command and follow the instructions in the screen:
 
 
