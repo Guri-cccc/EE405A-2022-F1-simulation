@@ -58,7 +58,7 @@ Personally, I installed the simulator package in the ```~/test_catkin_ws``` beca
 As a result, I did: 
 
     cd ~/f1_ws/src
-    git clone https://github.com/Leedk3/EE405_a_eurecar_f1_tenth_project.git
+    git clone https://github.com/Guri-cccc/EE405A-2022-F1-simulation.git
 
 
 
