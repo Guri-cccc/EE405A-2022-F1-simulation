@@ -52,14 +52,7 @@ The full list of dependencies can be found in the ```package.xml``` file.
 To install the simulator package, clone the repo with the simulator and starter code into your catkin workspace:
 
     cd ~/catkin_ws/src
-    git clone https://github.com/Leedk3/EE405_a_eurecar_f1_tenth_project.git
-    
-Personally, I installed the simulator package in the ```~/test_catkin_ws``` because I have installed other packages in the ```~/catkin_ws```. If you want to separate the workspace as I did, you can make a new directory as I created.
-As a result, I did: 
-
-    cd ~/f1_ws/src
     git clone https://github.com/Guri-cccc/EE405A-2022-F1-simulation.git
-
 
 
 ### 3. gazebo environment
@@ -69,7 +62,7 @@ The source for the required packages, including the simulator, are now in the wo
 
 There are two methods for installing the particle filter; with GPU support and without GPU support. We recommend using the package with GPU support, but leave the decision to you.
 
-** 3-1. Installing with GPU Support**  
+#### 3-1. Installing with GPU Support
 Keep this terminal open and pay special attention to the next step. The particle filter package depends heavily on the GPU and its architecture, so it becomes very important to match the architecture of the GPU in your local machine to the one listed in the configuration of `setup.py`. 
 
     ~/f1_ws/src/range_libc/pywrapper
