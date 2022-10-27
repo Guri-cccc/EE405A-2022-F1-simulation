@@ -1,3 +1,8 @@
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+</style>
+
 # EE405 F1tenth Project (F1TENTH Racecar Simulator)
 This project is based on F1TENTH Project.
 
@@ -80,7 +85,7 @@ Replace `-arch=sm_20` with the `-arch=sm_xx` value from the article in the link 
     ./compile_with_cuda.sh
 
 
-#### 3-2. Installing without GPU Support
+#### 3-2. Installing without GPU Support (Recommended)
 In the same terminal, enter the following command and follow the instructions in the screen:
 
 
