@@ -137,7 +137,7 @@ You can change the gazebo world map by modifying the 'world_name' argument in th
 For manual control using your keyboard inputs, run this package:
 
 ```
-user@ros-computer: rosrun f1tenth-sim keyboard_teleop.py car_1
+rosrun f1tenth-sim keyboard_teleop.py car_1
 ```
 
 Click the terminal where the keyboard_teleop node is running, and press your keyboards to control your vehicle.
