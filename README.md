@@ -1,8 +1,3 @@
-<style>
-H1{color:Blue !important;}
-H2{color:DarkOrange !important;}
-</style>
-
 # EE405 F1tenth Project (F1TENTH Racecar Simulator)
 This project is based on F1TENTH Project.
 
