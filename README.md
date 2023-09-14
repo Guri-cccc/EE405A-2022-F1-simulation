@@ -14,8 +14,8 @@ Also, this project provides gazebo simulator and messages.
 Therefore, it is a proper environment to implement such as vehicle control, simple mapping, and localization algorithm. We hope you to try whatever you want to test in this simulator. 
 
 As the class progresses, you can experience installing sensors required for algorithms in the vehicle and using them to integrate them into their own algorithms.
-We can modifiy the origin f1tenth model for you to use an IMU sensor, 2D LiDAR scanner, camera. 
-Finally, we will use the same track model as the students experimenting on a real vehicle basis.
+We can modifiy the origin f1tenth model for you to use an IMU sensor, and camera. 
+Finally, we will use the simular track model as the students experimenting on a real vehicle basis.
 
 ## A. Install guide
 
@@ -51,7 +51,7 @@ The full list of dependencies can be found in the ```package.xml``` file.
 
 To install the simulator package, clone the repo with the simulator and starter code into your catkin workspace:
 
-    cd ~/catkin_ws/src
+    cd ~/f1_ws/src
     git clone https://github.com/Guri-cccc/EE405A-2022-F1-simulation.git
 
 
@@ -92,7 +92,7 @@ In the same terminal, enter the following command and follow the instructions in
 ### 4. Simulator package build    
 Then run ```catkin_make``` to build it:
 
-    cd ~/catkin_ws
+    cd ~/f1_ws
     catkin_make
     source devel/setup.bash
         
