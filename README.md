@@ -115,9 +115,9 @@ This will launch everything you need for a full simulation; roscore, the simulat
 
 You can change the gazebo world map by modifying the 'world_name' argument in the simulator.launch file.
 
-
-<img src="./tutorial/pics/gazebo_oval_track.png"> 
-<img src="./tutorial/pics/track_catia_2.png">
+You can test your vehicle in world with and without the obstacles.
+<img src="./tutorial/pics/track.png"> 
+<img src="./tutorial/pics/track_with_obs.png">
 
 ### 2. Manually control the vehicle in the simulator
 
@@ -132,4 +132,7 @@ Click the terminal where the keyboard_teleop node is running, and press your key
 - w a d s : forward, left, right, backward
 - space_bar : brack 
 
+### 2. Sensor outputs
 
+<img src="./tutorial/pics/sensor_env.png">
+<img src="./tutorial/pics/rviz_rqt.png">
